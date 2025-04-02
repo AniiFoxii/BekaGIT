@@ -75,6 +75,7 @@ int main() {
             currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
         }
 
+        
         std::cout << "Хотите сыграть ещё раз? (Y/N): ";
         std::cin >> playAgain;
     } while (playAgain == 'Y' || playAgain == 'y');
